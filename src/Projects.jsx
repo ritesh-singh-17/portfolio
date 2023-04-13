@@ -17,6 +17,8 @@ const Projects = () => {
                                 key={val.id}
                                 name={val.name}
                                 imgsrc={val.imgsrc}
+                                code={val.code}
+                                url={val.url}
                             />
                         )
                     })}

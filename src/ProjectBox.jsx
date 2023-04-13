@@ -18,8 +18,8 @@ const ProjectBox = (props) => {
                             Portfolio Website Built Using React JS. Various libraries of React have been used.
                         </h6>
                         <div className="backlinks">
-                            <a href="#"> <h5> <span> <AiFillEye /> </span> View</h5> </a>
-                            <a href="#"> <h5> <span> <BiCode /> </span> Code</h5> </a>
+                            <a href={props.url} target='_blank'> <h5> <span> <AiFillEye /> </span> View</h5> </a>
+                            <a href={props.code} target='_blank'> <h5> <span> <BiCode /> </span> Code</h5> </a>
                         </div>
                     </div>
                 </div>
