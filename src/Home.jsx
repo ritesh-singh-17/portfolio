@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className="homeDiv row">
-        <div className="col col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 greetintro">
+        <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 greetintro">
           <div className="greetintro1">
             <div className="text-1">Hi there,</div>
             <div className="text-2">This is <span> Ritesh Singh </span></div>
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 profilepicdiv">
+        <div className="col-xl-5 col-lg-5 col-md-5 col-sm-11 col-12 profilepicdiv">
           <div className="profilePic1">
             <img src={profilepic} alt="myPic" className='dp img-fluid' />
           </div>

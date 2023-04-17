@@ -21,25 +21,25 @@ const Footer = () => {
                             <h6>Keep Rising <img src={rising} alt="" /></h6>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-5 col-6 quickLinks">
+                    <div className="col-lg-4 col-md-6 col-sm-5 col-12 quickLinks">
                         <div className="quickLinks1">
                             <h3> Quick Links </h3>
                             <div className="links">
                                 <a href="#"> <span><BsFillArrowRightCircleFill /></span> Home </a>
-                                <a href="#"> <span><BsFillArrowRightCircleFill /></span> About </a>
-                                <a href="#"> <span><BsFillArrowRightCircleFill /></span> Skills </a>
-                                <a href="#"> <span><BsFillArrowRightCircleFill /></span> Education </a>
-                                <a href="#"> <span><BsFillArrowRightCircleFill /></span> Work </a>
-                                <a href="#"> <span><BsFillArrowRightCircleFill /></span> Contacts </a>
+                                <a href="#About"> <span><BsFillArrowRightCircleFill /></span> About </a>
+                                <a href="#Skills"> <span><BsFillArrowRightCircleFill /></span> Skills </a>
+                                <a href="#Education"> <span><BsFillArrowRightCircleFill /></span> Education </a>
+                                <a href="#Work"> <span><BsFillArrowRightCircleFill /></span> Work </a>
+                                <a href="#Contacts"> <span><BsFillArrowRightCircleFill /></span> Contacts </a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-7 col-6 contactInfo">
+                    <div className="col-lg-4 col-md-6 col-sm-7 col-12 contactInfo">
                         <div className="contactInfo1">
                             <h3> Contact Info </h3>
-                            <h6><span><FaPhoneAlt /></span> Number </h6>
-                            <h6><span><MdEmail /></span> Email </h6>
-                            <h6><span><MdLocationOn /></span> Address </h6>
+                            <h6><span><FaPhoneAlt /></span> +91-63955-62965 </h6>
+                            <h6><span><MdEmail /></span> singh.riteshlumar0633@gmail.com </h6>
+                            <h6><span><MdLocationOn /></span> Sonbhadra, India </h6>
                             <div className="socialIcons">
                                 <SocialButtons />
                             </div>

@@ -440,7 +440,7 @@ button {
   border-radius: 1rem;
   /* width: fit-content; */
   width: auto;
-  margin: 3rem 4.5rem;
+  margin: 3rem 20%;
   padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
@@ -679,7 +679,7 @@ button {
 }
 
 .back img {
-  height: 190px;
+  height: 64%;
 }
 
 .backlinks {
@@ -882,6 +882,7 @@ button {
 }
 
 .thankMessage {
+  padding-left: 4.1rem !important;
   padding-top: 1.0rem;
 }
 
@@ -949,7 +950,7 @@ button {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
 }
 
 .contactInfo h3 {
@@ -985,7 +986,7 @@ button {
 }
 
 .socialIcons .socialButtons a {
-  font-size: 1.4rem;
+  font-size: 130% !important;
   border: none !important;
   background: white;
   color: rgb(4, 0, 38) !important;
@@ -1019,7 +1020,7 @@ button {
 
 
 /* scroll to top btn styling */
-.top-btn{
+.top-btn {
   font-size: 2rem !important;
   width: 4rem;
   height: 4rem;
@@ -1035,14 +1036,17 @@ button {
   align-items: center;
   cursor: pointer;
 }
-.topBtnIcon{
+
+.topBtnIcon {
   animation: gototop 1s linear infinite alternate-reverse;
 }
+
 @keyframes gototop {
   0% {
     transform: translateY(-0.5rem);
   }
-  100%{
+
+  100% {
     transform: translateY(0.5rem);
   }
 }
@@ -1052,14 +1056,23 @@ button {
 
 
 
+@media (max-width: 1250px) {
+  .footerSection {
+    padding: 2rem 5rem 1rem 5rem;
+  }
+}
 
-@media (max-width: 1070px) {
+@media (max-width: 1090px) {
   .greetintro1 {
     padding-left: 1.5rem;
   }
 
   .aboutPic1 {
     width: 60%;
+  }
+
+  .footerSection {
+    padding: 2rem 3rem 1rem 3rem;
   }
 }
 
@@ -1168,7 +1181,8 @@ button {
   }
 
   .skillsmallbox1 {
-    min-width: fit-content;
+    width: 60%;
+    /* margin: 3rem 4.5rem 3rem 4.0rem; */
   }
 
   .skillsmallbox1 .iconName h3 {
@@ -1179,6 +1193,10 @@ button {
     width: 90%;
   }
 
+  .thankMessage {
+    padding-left: 11% !important;
+    /* align-items: start; */
+  }
 }
 
 @media (max-width: 576px) {
@@ -1233,6 +1251,19 @@ button {
     width: 20.8125rem;
   }
 
+  .back h6 {
+    padding: 4px 0px 4px 10px;
+    margin: 0rem;
+    /* border-top: 2px solid black; */
+    position: sticky;
+    background: rgb(188, 188, 188);
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .backlinks a h5 {
+    font-size: 1.2rem !important;
+  }
+
   .contactContent {
     padding: 1rem !important;
     margin: 3rem;
@@ -1244,6 +1275,23 @@ button {
 
   .footerSection {
     padding: 1rem 2rem;
+  }
+
+  .contactInfo {
+    padding-top: 1.5rem;
+  }
+
+  .thankMessage,
+  .quickLinks,
+  .contactInfo {
+    padding-left: 10% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutPicContent {
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 }
 
@@ -1263,12 +1311,12 @@ button {
   }
 
   .skillsmallbox1 {
-    width: max-content;
+    width: 75%;
   }
 
   .contactContent {
     padding: 1rem !important;
-    margin: 3rem 0rem;
+    margin: 3rem 1.5rem;
   }
 }
 
@@ -1290,6 +1338,10 @@ button {
     margin: 3rem 0rem 0rem 0rem
   }
 
+  .skillSection {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
   .skillsmallbox1 img {
     margin-left: 0rem;
@@ -1312,6 +1364,11 @@ button {
 
   .card {
     width: 100%;
+  }
+
+  .back h6 {
+    font-size: 0.95rem;
+    padding: 4px 0px 4px 10px;
   }
 
   .footerSection {
