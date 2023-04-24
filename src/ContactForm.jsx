@@ -35,7 +35,7 @@ const ContactForm = () => {
                     <div className="formInput inputSubmit">
                         <div className="inputSubmit1">
                             <i className="icon"><FaHandPointRight /></i>
-                            <button class="btn btn-outline-primary" type="submit">SUBMIT</button>
+                            <button className="btn btn-outline-primary" type="submit">SUBMIT</button>
                         </div>
                     </div>
 

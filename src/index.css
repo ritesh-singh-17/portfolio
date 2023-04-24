@@ -5,7 +5,6 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-  /* font-size: 101%; */
 }
 
 /* navbar styling */
@@ -1021,9 +1020,9 @@ button {
 
 /* scroll to top btn styling */
 .top-btn {
-  font-size: 2rem !important;
-  width: 4rem;
-  height: 4rem;
+  font-size: 1.5rem !important;
+  width: 3rem;
+  height: 3rem;
   color: white;
   background-color: rgb(226, 43, 43);
   border-radius: 50%;
@@ -1043,11 +1042,11 @@ button {
 
 @keyframes gototop {
   0% {
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.2rem);
   }
 
   100% {
-    transform: translateY(0.5rem);
+    transform: translateY(0.18rem);
   }
 }
 
@@ -1373,5 +1372,12 @@ button {
 
   .footerSection {
     padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .back h6 {
+    font-size: 0.80rem;
+    padding: 4px 0px 4px 6px;
   }
 }

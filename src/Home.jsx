@@ -21,7 +21,7 @@ const Home = () => {
               />
             </span></div>
             <div className="aboutmebtn">
-              <a href="#About"> About Me </a>
+              <a href="mailto:singh.riteshkumar0633@gmail.com"> Hire Me </a>
             </div>
             <div className='homeSocialIcons'>
               <SocialButtons />
