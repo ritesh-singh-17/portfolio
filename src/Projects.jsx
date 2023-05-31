@@ -19,6 +19,7 @@ const Projects = () => {
                                 imgsrc={val.imgsrc}
                                 code={val.code}
                                 url={val.url}
+                                descp={val.descp}
                             />
                         )
                     })}

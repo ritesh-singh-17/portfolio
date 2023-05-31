@@ -15,7 +15,7 @@ const ProjectBox = (props) => {
                     <div className="back">
                         <img src={props.imgsrc} alt={props.name} />
                         <h6>
-                            Portfolio Website Built Using React JS. Various libraries of React have been used.
+                            {props.descp}
                         </h6>
                         <div className="backlinks">
                             <a href={props.url} target='_blank'> <h5> <span> <AiFillEye /> </span> View</h5> </a>
