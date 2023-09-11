@@ -38,8 +38,8 @@ const Footer = () => {
                         <div className="contactInfo1">
                             <h3> Contact Info </h3>
                             <h6><span><FaPhoneAlt /></span> +91-63955-62965 </h6>
-                            <h6><span><MdEmail /></span> singh.riteshlumar0633@gmail.com </h6>
-                            <h6><span><MdLocationOn /></span> Sonbhadra, India </h6>
+                            <h6><span><MdEmail /></span> singh.riteshkumar0633@gmail.com </h6>
+                            <h6><span><MdLocationOn /></span> Sitarganj, India </h6>
                             <div className="socialIcons">
                                 <SocialButtons />
                             </div>

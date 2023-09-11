@@ -8,7 +8,7 @@ const About = () => {
     <>
       <div className="aboutSection" id='About'>
         <div className="aboutTitle">
-          <h1><span className='icon'> <IoPersonSharp /> </span> About  <span className='me'> Me </span></h1>
+          <h1 className='aboutTitle1'><span className='icon'> <IoPersonSharp /> </span> About  <span className='me'> Me </span></h1>
         </div>
         <div className="aboutPicContent m-0 row">
           <div className="col-lg-6 col-md-12 col-sm-12 col-12 aboutPic">

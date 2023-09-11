@@ -1,6 +1,7 @@
 import portfolio from "./images/portfolio.jpg"
 import ecommerce from "./images/ecommerce.jpg"
 import userdetails from "./images/userdetails.jpg"
+import blog from "./images/blogSite.jpg"
 
 const ProjectsData = [
     {
@@ -21,11 +22,11 @@ const ProjectsData = [
     },
     {
         id: 3,
-        name: "User Details Site",
-        imgsrc: userdetails,
-        code: "https://github.com/ritesh-singh-17/userdetails.git",
-        url: "https://ritesh-singh-17.github.io/userdetails/",
-        descp: "A Site where you can add, remove, edit user data, built using React JS."
+        name: "Blog Website",
+        imgsrc: blog,
+        code: "https://github.com/ritesh-singh-17/blogweb.git",
+        url: "https://blogweb-gjnd.onrender.com/",
+        descp: "A full stack blog website where user can read, add, edit or delete blogs."
     }
 ]
 export default ProjectsData;

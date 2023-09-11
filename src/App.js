@@ -9,6 +9,7 @@ import Contacts from './Contacts'
 import Footer from './Footer'
 import Error from './Error'
 import GoToTop from './GoToTop'
+import Experience from './Experience'
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Experience/>
       <Education />
       <Projects />
       <Contacts />
