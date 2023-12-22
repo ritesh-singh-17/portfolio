@@ -26,8 +26,21 @@ const Experience = () => {
                                 <h4>GITS India Solutions Pvt. Ltd.</h4>
                             </div>
                             <div className="desc">
-                                <h5>Software Developer Intern (Full Stack)</h5>
+                                <h5>Full Stack Developer Intern</h5>
                                 <p>July 2023 - September 2023</p>
+                                <p>PHP, MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cont left">
+                        <div className="content">
+                            <div className="tag">
+                                <h4>HealMeRight</h4>
+                            </div>
+                            <div className="desc">
+                                <h5>Software Developer Intern</h5>
+                                <p>October 2023 - present</p>
+                                <p>Node.js, MongoDB, EJS, Passport.js</p>
                             </div>
                         </div>
                     </div>

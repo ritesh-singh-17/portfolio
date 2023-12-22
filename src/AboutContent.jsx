@@ -9,14 +9,14 @@ const AboutContent = () => {
           <h3> I'm Ritesh </h3>
         </div>
         <div className="subTitle">
-          <h5> Full Stack Developer </h5>
+          <h5> Full Stack MERN Developer </h5>
         </div>
         <div className="content">
           <p>
-            I am a Full Stack Web Developer.
-            I am an Electronics Engineering Undergraduate from REC Sonbhadra.
-            I am very passionate about improving my coding skills & developing websites.
-            I build full stack websites using React.JS, Node.JS, Express.JS and work on databases like MySQL, MongoDB.
+            Currently, an undergraduate in Electronics Engineering from REC Sonbhadra,
+            I am a proficient <b>Full Stack Developer</b> with expertise in <b>MERN Development</b>.
+            I am very passionate about <b>problem solving</b> & adept at developing websites using technologies such as
+            React.JS, Node.JS, Express.JS, along with databases like MySQL and MongoDB.
             Working for myself to improve my skills.
           </p>
         </div>
@@ -25,7 +25,7 @@ const AboutContent = () => {
           <p><span> Email : </span><a href="mailto:singh.riteshkumar0633@gmail.com"> singh.riteshkumar0633@gmail.com </a></p>
         </div>
         <div className="resumebtn">
-          <a href="https://drive.google.com/file/d/1mjpRhsC0FJ6RWk9K-gbMBt0I7ez6VvmR/view?usp=sharing" target='_blank' rel='noreferrer'> Resume </a>
+          <a href="https://drive.google.com/file/d/15MPz66UKehTjFHdkxtiz9GVFfPBSayK0/view?usp=sharing" target='_blank' rel='noreferrer'> Resume </a>
         </div>
       </div>
     </>

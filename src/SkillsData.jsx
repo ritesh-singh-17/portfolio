@@ -9,6 +9,12 @@ import dsa from "./images/dsa.png"
 import node from "./images/node.png"
 import mysql from "./images/mysql.png"
 import git from "./images/git.png"
+import express from "./images/express.png"
+import mongodb from "./images/mongodb.png"
+import php from "./images/php.png"
+import socket from "./images/socket.png"
+
+
 const SkillsData = [
     {
         id: 1,
@@ -42,28 +48,48 @@ const SkillsData = [
     },
     {
         id: 7,
+        imgsrc: express,
+        name: 'Express.JS'
+    },
+    {
+        id: 8,
+        imgsrc: mongodb,
+        name: 'MongoDB'
+    },
+    {
+        id: 9,
         imgsrc: mysql,
         name: 'MySQL'
     },
     {
-        id: 8,
+        id: 10,
+        imgsrc: php,
+        name: 'PHP'
+    },
+    {
+        id: 11,
         imgsrc: java,
         name: 'Java'
     },
     {
-        id: 9,
+        id: 12,
         imgsrc: prob,
         name: 'Problem Solving'
     },
     {
-        id: 10,
+        id: 13,
         imgsrc: dsa,
         name: 'Data Structures'
     },
     {
-        id: 11,
+        id: 14,
         imgsrc: git,
         name: 'Git'
+    },
+    {
+        id: 15,
+        imgsrc: socket,
+        name: 'Socket.Io'
     },
     
 ]

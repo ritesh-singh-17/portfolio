@@ -8,7 +8,7 @@ Portfolio website build using React JS, CSS.
 HTML, CSS, Javascript, Bootstrap, React
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](./src/images/portfolio.jpg)
+![mockup720](./src/images/portfolio.png)
 
 
 
