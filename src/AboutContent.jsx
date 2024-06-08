@@ -25,7 +25,7 @@ const AboutContent = () => {
           <p><span> Email : </span><a href="mailto:singh.riteshkumar0633@gmail.com"> singh.riteshkumar0633@gmail.com </a></p>
         </div>
         <div className="resumebtn">
-          <a href="https://drive.google.com/file/d/15MPz66UKehTjFHdkxtiz9GVFfPBSayK0/view?usp=sharing" target='_blank' rel='noreferrer'> Resume </a>
+          <a href="https://drive.google.com/file/d/1xO6sFutvTL1Z_fl7KoKNwlxmnDHyqdVw/view?usp=sharing" target='_blank' rel='noreferrer'> Resume </a>
         </div>
       </div>
     </>
