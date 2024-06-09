@@ -16,7 +16,6 @@ const Experience = () => {
                             </div>
                             <div className="desc">
                                 <h5>Full Stack Developer</h5>
-                                <p>February 2023 - October 2023</p>
                                 <p>ReactJS, NodeJS, MongoDB, PHP, MySQL</p>
                             </div>
                         </div>
@@ -28,7 +27,6 @@ const Experience = () => {
                             </div>
                             <div className="desc">
                                 <h5>Software Developer</h5>
-                                <p>October 2023 - February 2024</p>
                                 <p>Node.js, MongoDB, EJS, Passport.js</p>
                             </div>
                         </div>
